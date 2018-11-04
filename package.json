@@ -9,5 +9,8 @@
   "scripts": {
     "start": "node src/app.js",
     "test-eslint": "eslint --fix ."
+  },
+  "dependencies": {
+    "blockchain.info": "^2.12.1"
   }
 }
