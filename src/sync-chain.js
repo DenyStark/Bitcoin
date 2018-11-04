@@ -1,5 +1,6 @@
 const explorer = require('blockchain.info/blockexplorer');
 const Block = require('./models').Block;
+const db = require('./database');
 
 // 2009 - 1230768000000
 // 2010 - 1262304000000
@@ -14,6 +15,7 @@ const blocks = [];
 const syncBlocks = (time, stop) => {
   if (time >= stop || time >= Date.now()) {
     console.log(`Total ${blocks.length} blocks`);
+    db.insertBlocks(blocks);
     return;
   }
 

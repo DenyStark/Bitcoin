@@ -1,0 +1,5 @@
+CREATE TABLE "blocks" (
+	"height" INTEGER NOT NULL UNIQUE,
+	"hash" CHAR(64) PRIMARY KEY NOT NULL,
+	"time" TIMESTAMP
+);

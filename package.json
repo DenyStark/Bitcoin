@@ -11,6 +11,8 @@
     "test-eslint": "eslint --fix ."
   },
   "dependencies": {
-    "blockchain.info": "^2.12.1"
+    "blockchain.info": "^2.12.1",
+    "config": "^2.0.1",
+    "pg": "^7.6.0"
   }
 }
