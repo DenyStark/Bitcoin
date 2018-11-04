@@ -1,0 +1,13 @@
+{
+  "name": "bitcoin",
+  "version": "0.1",
+  "description": "Bitcoin tools",
+  "main": "src/app.js",
+  "repository": "https://github.com/DenyStark/Bitcoin.git",
+  "author": "DenyStark <denyskrolevetskyi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js",
+    "test-eslint": "eslint --fix ."
+  }
+}
